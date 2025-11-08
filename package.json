@@ -1,14 +1,14 @@
 {
-  "name": "futere-tech",
+  "name": "future-tech",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass-watch": "sass --watch styles:css"
+    "sass-watch": "sass --watch ."
   },
   "author": "",
   "license": "ISC",
+  "description": "",
   "devDependencies": {
     "sass": "^1.80.6"
   }
