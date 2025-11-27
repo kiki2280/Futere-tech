@@ -143,7 +143,7 @@
                 </div>
             </section>
 
-            <section class="section" aria-labelledby="blog-title">
+            <section class="section" aria-labelledby="features-title">
                 <header class="section__header">
                     <div class="section__header-inner container">
                         <div class="section__header-info">
@@ -235,7 +235,7 @@
                 </div>
             </section>
 
-            <section class="section" aria-labelledby="features-title">
+            <section class="section" aria-labelledby="blog-title">
                 <header class="section__header">
                     <div class="section__header-inner container">
                         <div class="section__header-info">
@@ -251,86 +251,38 @@
                     <h3 class="visually-hidden" id="blog-category-title">
                         Blog category
                     </h3>
-                    <header class="tabs__header">
-                        <button 
-                        class="tabs__button is-active" 
-                        id="tab-1"
-                        type="button"
-                        role="tab"
-                        aria-controls="tabpanel-1"
-                        data-js-tabs-button
-                        aria-selected="true"
-                        >
-                        All
-                        </button>
-                        <button 
-                        class="tabs__button" 
-                        id="tab-2"
-                        type="button"
-                        role="tab"
-                        aria-controls="tabpanel-1"
-                        data-js-tabs-button
-                        aria-selected="false"
-                        tabindex="-1"
-                        >
-                        Quantum Computing
-                        </button>
-                        <button 
-                        class="tabs__button" 
-                        id="tab-3"
-                        type="button"
-                        role="tab"
-                        aria-controls="tabpanel-1"
-                        data-js-tabs-button
-                        aria-selected="false"
-                        tabindex="-1"
-                        >
-                        AI Ethics
-                        </button>
-                        <button 
-                        class="tabs__button" 
-                        id="tab-4"
-                        type="button"
-                        role="tab"
-                        aria-controls="tabpanel-1"
-                        data-js-tabs-button
-                        aria-selected="false"
-                        tabindex="-1"
-                        >
-                        Space Exploration
-                        </button>
-                        <button 
-                        class="tabs__button" 
-                        id="tab-5"
-                        type="button"
-                        role="tab"
-                        aria-controls="tabpanel-1"
-                        data-js-tabs-button
-                        aria-selected="false"
-                        tabindex="-1"
-                        >
-                        Biotechnology
-                        </button>
-                        <button 
-                        class="tabs__button" 
-                        id="tab-6"
-                        type="button"
-                        role="tab"
-                        aria-controls="tabpanel-1"
-                        data-js-tabs-button
-                        aria-selected="false"
-                        tabindex="-1"
-                        >
-                        Renewable Energy
-                        </button>
-                        <div class="tabs__button container" 
+                    <header class="tabs__header ">
+                        <div class="tabs__buttons container" 
                         role="tablist"
                         aria-labelledby="blog-category-title">
-                            
+                            <button class="tabs__button is-active" id="tab-1" type="button" role="tab" aria-controls="tabpanel-1"
+                                data-js-tabs-button aria-selected="true">
+                                All
+                            </button>
+                            <button class="tabs__button" id="tab-2" type="button" role="tab" aria-controls="tabpanel-1" data-js-tabs-button
+                                aria-selected="false" tabindex="-1">
+                                Quantum Computing
+                            </button>
+                            <button class="tabs__button" id="tab-3" type="button" role="tab" aria-controls="tabpanel-1" data-js-tabs-button
+                                aria-selected="false" tabindex="-1">
+                                AI Ethics
+                            </button>
+                            <button class="tabs__button" id="tab-4" type="button" role="tab" aria-controls="tabpanel-1" data-js-tabs-button
+                                aria-selected="false" tabindex="-1">
+                                Space Exploration
+                            </button>
+                            <button class="tabs__button" id="tab-5" type="button" role="tab" aria-controls="tabpanel-1" data-js-tabs-button
+                                aria-selected="false" tabindex="-1">
+                                Biotechnology
+                            </button>
+                            <button class="tabs__button" id="tab-6" type="button" role="tab" aria-controls="tabpanel-1" data-js-tabs-button
+                                aria-selected="false" tabindex="-1">
+                                Renewable Energy
+                            </button>
                         </div>
                     </header>
-                    <div class="tabs__body is-active">
-                        <div class="tabs__content" 
+                    <div class="tabs__body ">
+                        <div class="tabs__content is-active" 
                         id="tabpanel-1"
                         aria-labelledby="tab-1"
                         tabindex="0"
@@ -350,7 +302,7 @@
                                         </div>
                                     </div>
                                     <div class="blog-card__body">
-                                        <time datetime="2023-10-15" class="blog-card__date">October 15, 2023</time>
+                                        <time datetime="2023-10-15" class="blog-card__date h6">October 15, 2023</time>
                                         <div class="blog-card__info">
                                             <h4 class="blog-card__title">The Quantum Leap in Computing</h4>
                                             <div class="blog-card__description">
@@ -425,7 +377,7 @@
                                         </div>
                                     </div>
                                     <div class="blog-card__body">
-                                        <time datetime="2023-11-5" class="blog-card__date">November 5, 2023</time>
+                                        <time datetime="2023-11-5" class="blog-card__date h6 ">November 5, 2023</time>
                                         <div class="blog-card__info">
                                             <h4 class="blog-card__title">The Ethical Dilemmas of AI</h4>
                                             <div class="blog-card__description">
@@ -435,7 +387,7 @@
                                         <div class="blog-card___actions blog-actions ">
                                             <ul class="blog-actions__list">
                                                 <li class="blog-actions__item">
-                                                    <button class="blog-actions__button is-active"
+                                                    <button class="blog-actions__button "
                                                     type="button"
                                                     aria-label="Dislike"
                                                     title="Dislike">
@@ -500,7 +452,7 @@
                                         </div>
                                     </div>
                                     <div class="blog-card__body">
-                                        <time datetime="2023-11-10" class="blog-card__date">December 10, 2023</time>
+                                        <time datetime="2023-11-10" class="blog-card__date h6">December 10, 2023</time>
                                         <div class="blog-card__info">
                                             <h4 class="blog-card__title">The Mars Colonization Challenge</h4>
                                             <div class="blog-card__description">
@@ -510,7 +462,7 @@
                                         <div class="blog-card___actions blog-actions ">
                                             <ul class="blog-actions__list">
                                                 <li class="blog-actions__item">
-                                                    <button class="blog-actions__button is-active"
+                                                    <button class="blog-actions__button "
                                                     type="button"
                                                     aria-label="Dislike"
                                                     title="Dislike">
