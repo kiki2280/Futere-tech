@@ -28,15 +28,17 @@
 
 @use 'blocks/tabs';
 @use 'blocks/person-card';
-@use 'blocks/blog-actions';
+@use 'blocks/blog-actions'; 
 @use 'blocks/blog-card';
 
+// body {
+//     color: aquamarine;
+// }
 
 
-
-
-.header, 
-.footer,
-main > *:not(:last-child){
-    display: none !important;
-}
+    
+// .header, 
+// .footer,
+// main > *:not(:last-child){
+//     display: none !important;
+// }
